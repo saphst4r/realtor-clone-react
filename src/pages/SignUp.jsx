@@ -41,7 +41,7 @@ export default function SignUp() {
             navigate('/')
 
         } catch (error) {
-            toast.error("Something went wrong with the resgistration.");
+            toast.error("Something went wrong with the registration.");
         }
     }
     const {name, email, password} = formData;
