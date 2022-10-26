@@ -136,7 +136,7 @@ export default function Listing() {
                     />
                     <Marker position={[listing.geolocation.lat, listing.geolocation.lng]}>
                     <Popup>
-                        {listing.address}.
+                        {listing.address}
                     </Popup>
                     </Marker>
                 </MapContainer>
