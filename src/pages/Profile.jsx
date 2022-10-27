@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import{getAuth, updateCurrentUser, updateProfile} from "firebase/auth"
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import {toast} from "react-toastify";
 import {db} from '../firebase'
 import {collection, deleteDoc, doc, getDocs, orderBy, query, updateDoc, where} from "firebase/firestore"
